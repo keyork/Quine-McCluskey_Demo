@@ -16,8 +16,6 @@ This is a demo of Quine-McCluskey used Python.
 
 Finding all prime implicants of the function.
 
-- 
-
 ### Step 2: Search "Minimum Cover"
 
 Use those prime implicants in a *prime implicant chart* to find the essential prime implicants of the function, as well as other prime implicants that are necessary to cover the function.
