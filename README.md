@@ -1,3 +1,22 @@
+```
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      <!--$表示行内元素，$$表示块状元素 -->
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<!--加载MathJax的最新文件， async表示异步加载进来 -->
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+</script>
+```
+
 # Quine-McCluskey_Demo
 
 This is a demo of Quine-McCluskey used Python.
@@ -6,15 +25,15 @@ This is a demo of Quine-McCluskey used Python.
 
 - input
 
-  - A list of number, represents the logical expression to be simplified in Sum of Products form formula, like <img src="http://chart.googleapis.com/chart?cht=tx&chl=[4,8,10,11,12,15]" style="border:none;">;
+  - A list of number, represents the logical expression to be simplified in Sum of Products form formula, like $[4,8,10,11,12,15]$;
 
-  - Another list of number, represents Don't Care term in the logical expression, like <img src="http://chart.googleapis.com/chart?cht=tx&chl=[9,14]" style="border:none;">;
+  - Another list of number, represents Don't Care term in the logical expression, like $[9,14]$;
 
   - Then, the hole logical expression is: 
 
-    <img src="http://chart.googleapis.com/chart?cht=tx&chl=f(A,B,C,D,...)=\sum m(4,8,10,11,12,15) + d(9,14)" style="border:none;">
+    $$f(A,B,C,D,...)=\sum m(4,8,10,11,12,15) + d(9,14)$$
 
-- output: a formula like <img src="http://chart.googleapis.com/chart?cht=tx&chl=f(A, B, C, D) = BC'D' + AC + AB'" style="border:none;">;
+- output: a formula like $f(A, B, C, D) = BC'D' + AC + AB'$;
 
 ## method
 
