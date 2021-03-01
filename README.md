@@ -7,7 +7,7 @@ This is a demo of Quine-McCluskey used Python.
 - input
   - A list of number, represents the logical expression to be simplified in Sum of Products form formula, like [4,8,10,11,12,15];
   - Another list of number, represents Don't Care term in the logical expression, like [9,14];
-  - Then, the hole logical expression is: f(A,B,C,D,...) = SUM m(4,8,10,11,12,15) + d(9,14);
+  - Then, the hole logical expression is: f(A,B,C,D,...) = SUM(m(4,8,10,11,12,15)) + d(9,14);
 - output: a formula like f(A,B,C,D) = BC'D' + AC + AB';
 
 ## method
