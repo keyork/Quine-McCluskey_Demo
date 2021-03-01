@@ -6,15 +6,15 @@ This is a demo of Quine-McCluskey used Python.
 
 - input
 
-  - A list of number, represents the logical expression to be simplified in Sum of Products form formula, like <a href="https://www.codecogs.com/eqnedit.php?latex=[4,8,10,11,12,15]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?[4,8,10,11,12,15]" title="[4,8,10,11,12,15]" /></a>;
+  - A list of number, represents the logical expression to be simplified in Sum of Products form formula, like <img src="http://chart.googleapis.com/chart?cht=tx&chl=[4,8,10,11,12,15]" style="border:none;">;
 
-  - Another list of number, represents Don't Care term in the logical expression, like <a href="https://www.codecogs.com/eqnedit.php?latex=[9,14]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?[9,14]" title="[9,14]" /></a>;
+  - Another list of number, represents Don't Care term in the logical expression, like <img src="http://chart.googleapis.com/chart?cht=tx&chl=[9,14]" style="border:none;">;
 
   - Then, the hole logical expression is: 
 
-    <a href="https://www.codecogs.com/eqnedit.php?latex=f(A,B,C,D,...)=\sum&space;m(4,8,10,11,12,15)&space;&plus;&space;d(9,14)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(A,B,C,D,...)=\sum&space;m(4,8,10,11,12,15)&space;&plus;&space;d(9,14)" title="f(A,B,C,D,...)=\sum m(4,8,10,11,12,15) + d(9,14)" /></a>
+    <img src="http://chart.googleapis.com/chart?cht=tx&chl=f(A,B,C,D,...)=\sum m(4,8,10,11,12,15) + d(9,14)" style="border:none;">
 
-- output: a formula like <a href="https://www.codecogs.com/eqnedit.php?latex=f(A,&space;B,&space;C,&space;D)&space;=&space;BC'D'&space;&plus;&space;AC&space;&plus;&space;AB'" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(A,&space;B,&space;C,&space;D)&space;=&space;BC'D'&space;&plus;&space;AC&space;&plus;&space;AB'" title="f(A, B, C, D) = BC'D' + AC + AB'" /></a>;
+- output: a formula like <img src="http://chart.googleapis.com/chart?cht=tx&chl=f(A, B, C, D) = BC'D' + AC + AB'" style="border:none;">;
 
 ## method
 
