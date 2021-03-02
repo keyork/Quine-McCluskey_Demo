@@ -2,7 +2,7 @@
     This is the main entrance of the Quine-McCluskey program.
 '''
 
-from tools.utils import dec2bin_nosign, dec2bin_sign, bin2dec_nosign, bin2dec_sign
+from tools.decbin import dec2bin_nosign, dec2bin_sign, bin2dec_nosign, bin2dec_sign
 
 if __name__ == '__main__':
     bin_num = dec2bin_nosign(15)
